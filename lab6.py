@@ -58,7 +58,7 @@ class TemperatureMonitor:
             messagebox.showwarning("Warning", "High temperature detected!")
         elif temp <= 10:
             messagebox.showwarning("Warning", "Low temperature detected!")
-#hgurhvjh
+
 root = tk.Tk()
 app = TemperatureMonitor(root)
 root.mainloop()
